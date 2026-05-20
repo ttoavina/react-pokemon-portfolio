@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Rename-Item *)",
+      "PowerShell($lockers = @\\(\\); Get-ChildItem -Path \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\app\" -Recurse -ErrorAction SilentlyContinue | ForEach-Object { $f = $_.FullName; try { $fs = [System.IO.File]::Open\\($f,'Open','Read','None'\\); $fs.Close\\(\\) } catch { $lockers += $f } }; $lockers | Select-Object -First 5)",
+      "PowerShell(robocopy \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\app\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\frontend\" /E /MOVE /NFL /NDL /NJH /NJS /R:1 /W:1; \"EXIT=$LASTEXITCODE\")",
+      "PowerShell(Stop-Process *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(python -m py_compile \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\config.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\db.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\main.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\routers\\\\health.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\routers\\\\contact.py\")",
+      "Bash(python -m py_compile \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\config.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\db.py\")",
+      "Bash(python -m py_compile \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\config.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\llm.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\routers\\\\chat.py\" \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\main.py\")",
+      "Bash(python -m py_compile \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\routers\\\\chat.py\")",
+      "Bash(python -m py_compile \"C:\\\\Users\\\\ONIAVO\\\\Pictures\\\\Screenshots\\\\portfolio\\\\backend\\\\app\\\\llm.py\")",
+      "Bash(python *)"
+    ]
+  }
+}
