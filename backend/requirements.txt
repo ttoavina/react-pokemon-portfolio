@@ -7,3 +7,6 @@ pydantic-settings==2.5.2
 python-dotenv==1.0.1
 litellm==1.51.0
 email-validator==2.2.0
+pymongo==4.6.3
+motor==3.3.2
+pydantic[email]
