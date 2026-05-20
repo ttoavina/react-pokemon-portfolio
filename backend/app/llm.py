@@ -5,20 +5,27 @@ import litellm
 
 from .config import get_settings
 
-PROFILE_PATH = (
-    Path(__file__).resolve().parent.parent.parent
-    / "frontend"
-    / "src"
-    / "data"
-    / "profile.json"
-)
+_BACKEND_DIR = Path(__file__).resolve().parent.parent
+_DEV_PATH = _BACKEND_DIR.parent / "frontend" / "src" / "data" / "profile.json"
+_CONTAINER_PATH = _BACKEND_DIR / "profile.json"
+
+
+def _resolve_profile_path() -> Path:
+    """Prefer the env override, then the in-container copy, then the dev path."""
+    settings = get_settings()
+    if settings.profile_json_path:
+        return Path(settings.profile_json_path)
+    if _CONTAINER_PATH.exists():
+        return _CONTAINER_PATH
+    return _DEV_PATH
 
 
 def _load_profile() -> dict:
     try:
-        with PROFILE_PATH.open("r", encoding="utf-8") as f:
+        path = _resolve_profile_path()
+        with path.open("r", encoding="utf-8") as f:
             return json.load(f)
-    except FileNotFoundError:
+    except (FileNotFoundError, OSError):
         return {}
 
 
