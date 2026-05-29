@@ -13,20 +13,6 @@
   "experiences": [
     {
       "id": "#001",
-      "company": "The Next Mind",
-      "role": "Data Scientist",
-      "location": "France",
-      "period": "Avril 2025 – Présent",
-      "type": "AI TYPE",
-      "icon": "psychology",
-      "accent": "primary",
-      "iconBg": "primary-fixed",
-      "iconColor": "on-primary-fixed",
-      "description": "Conception complète de l'architecture IA de la plateforme SaaS Mindy. Systèmes IA pour entreprises (agents, génération, automatisation), RAG en production, IA de Pulse pour dirigeants, refonte IA de personnalite.fr et contribution à VIPitch.",
-      "stack": ["AWS", "Python", "FastAPI", "LangChain", "Pinecone", "Supabase", "Celery", "Redis"]
-    },
-    {
-      "id": "#002",
       "company": "Wazo S.A.",
       "role": "AI Software Engineer",
       "location": "Luxembourg",
@@ -38,6 +24,20 @@
       "iconColor": "on-tertiary-container",
       "description": "Développement de Tweeksy, CMS intelligent piloté par IA. Gestion de domaine, des tokens et du multi-tenant.",
       "stack": ["Next.js", "Python", "OpenCV", "Strapi", "Meilisearch"]
+    },
+    {
+      "id": "#002",
+      "company": "The Next Mind",
+      "role": "Data Scientist",
+      "location": "France",
+      "period": "Avril 2025 – Mai 2026",
+      "type": "AI TYPE",
+      "icon": "psychology",
+      "accent": "primary",
+      "iconBg": "primary-fixed",
+      "iconColor": "on-primary-fixed",
+      "description": "Conception complète de l'architecture IA de la plateforme SaaS Mindy. Systèmes IA pour entreprises (agents, génération, automatisation), RAG en production, IA de Pulse pour dirigeants, refonte IA de personnalite.fr et contribution à VIPitch.",
+      "stack": ["AWS", "Python", "FastAPI", "LangChain", "Pinecone", "Supabase", "Celery", "Redis"]
     },
     {
       "id": "#003",
