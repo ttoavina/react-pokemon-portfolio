@@ -174,11 +174,17 @@
       ]
     }
   ],
+  {
   "recentCatch": {
-    "title": "Architecture IA Mindy",
-    "description": "Conception complète de l'architecture IA d'une plateforme SaaS en production : agents, génération, RAG et traitement asynchrone distribué.",
-    "tags": ["Catégorie : SaaS", "Rareté : Légendaire", "Niveau : 99"]
-  },
+    "title": "Développement de Tweeksy",
+    "description": "Contribution active au développement de Tweeksy à travers l'ajout de nouvelles fonctionnalités, l'amélioration des performances et la participation à l'évolution de la plateforme en production.",
+    "tags": [
+      "Catégorie : SaaS",
+      "Rareté : Légendaire",
+      "Niveau : 99"
+    ]
+  }
+},
   "socials": [
     { "label": "Email", "href": "mailto:ttokiniainatoavina4@gmail.com", "icon": "mail" },
     { "label": "Phone", "href": "tel:+261347231032", "icon": "call" },
