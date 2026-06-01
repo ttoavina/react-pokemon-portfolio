@@ -8,7 +8,12 @@
     "email": "ttokiniainatoavina4@gmail.com",
     "summary": "Data Scientist spécialisé en IA générative, systèmes RAG et Computer Vision, avec expérience sur des projets SaaS et industriels en production.",
     "quote": "Le meilleur code n'est pas juste efficace, il raconte une histoire. Construisons quelque chose de légendaire ensemble.",
-    "types": ["LLM", "RAG", "Computer Vision", "NLP"]
+    "types": [
+      "LLM",
+      "RAG",
+      "Computer Vision",
+      "NLP"
+    ]
   },
   "experiences": [
     {
@@ -23,7 +28,13 @@
       "iconBg": "tertiary-container",
       "iconColor": "on-tertiary-container",
       "description": "Développement de Tweeksy, CMS intelligent piloté par IA. Gestion de domaine, des tokens et du multi-tenant.",
-      "stack": ["Next.js", "Python", "OpenCV", "Strapi", "Meilisearch"]
+      "stack": [
+        "Next.js",
+        "Python",
+        "OpenCV",
+        "Strapi",
+        "Meilisearch"
+      ]
     },
     {
       "id": "#002",
@@ -37,7 +48,16 @@
       "iconBg": "primary-fixed",
       "iconColor": "on-primary-fixed",
       "description": "Conception complète de l'architecture IA de la plateforme SaaS Mindy. Systèmes IA pour entreprises (agents, génération, automatisation), RAG en production, IA de Pulse pour dirigeants, refonte IA de personnalite.fr et contribution à VIPitch.",
-      "stack": ["AWS", "Python", "FastAPI", "LangChain", "Pinecone", "Supabase", "Celery", "Redis"]
+      "stack": [
+        "AWS",
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Pinecone",
+        "Supabase",
+        "Celery",
+        "Redis"
+      ]
     },
     {
       "id": "#003",
@@ -51,7 +71,12 @@
       "iconBg": "secondary-container",
       "iconColor": "on-secondary-container",
       "description": "Outils industriels de visualisation de données pour le projet Safran Blades. Dashboards dynamiques avec Apache ECharts.",
-      "stack": ["Angular", "NestJS", "MongoDB", "Apache ECharts"]
+      "stack": [
+        "Angular",
+        "NestJS",
+        "MongoDB",
+        "Apache ECharts"
+      ]
     },
     {
       "id": "#004",
@@ -65,7 +90,13 @@
       "iconBg": "primary-fixed",
       "iconColor": "on-primary-fixed",
       "description": "OCR intelligent pour factures et documents, système RAG pour recherche produit, chatbot Helpdesk et analyse de nuages de points (Computer Vision / 3D).",
-      "stack": ["GCP", "TensorFlow", "FastAPI", "BigQuery", "Vertex AI"]
+      "stack": [
+        "GCP",
+        "TensorFlow",
+        "FastAPI",
+        "BigQuery",
+        "Vertex AI"
+      ]
     },
     {
       "id": "#005",
@@ -79,7 +110,12 @@
       "iconBg": "surface-container-highest",
       "iconColor": "on-surface",
       "description": "Pipelines ETL en Python et Talend, migration de pipelines existants et modélisation d'un système de prédiction de churn client.",
-      "stack": ["Python", "Talend", "MySQL", "PostgreSQL"]
+      "stack": [
+        "Python",
+        "Talend",
+        "MySQL",
+        "PostgreSQL"
+      ]
     },
     {
       "id": "#006",
@@ -93,7 +129,11 @@
       "iconBg": "secondary-fixed",
       "iconColor": "on-secondary-fixed",
       "description": "Développement de la partie mobile de la plateforme, fonctionnalités principales et optimisation UX.",
-      "stack": ["Flutter", "Node.js", "MongoDB"]
+      "stack": [
+        "Flutter",
+        "Node.js",
+        "MongoDB"
+      ]
     },
     {
       "id": "#007",
@@ -107,7 +147,12 @@
       "iconBg": "tertiary-fixed",
       "iconColor": "on-tertiary-fixed",
       "description": "Apps mobiles FlitRide & FlitBooking, classificateur d'images, data scraping et solutions ML intégrées produit.",
-      "stack": ["Flutter", "PyTorch", "Selenium", "Python"]
+      "stack": [
+        "Flutter",
+        "PyTorch",
+        "Selenium",
+        "Python"
+      ]
     }
   ],
   "skillGroups": [
@@ -120,11 +165,26 @@
       "bar": "bg-primary",
       "headerBar": "bg-primary-container",
       "skills": [
-        { "name": "IA Générative (LLM / Agents / RAG)", "value": 95 },
-        { "name": "Computer Vision & OCR", "value": 88 },
-        { "name": "Machine Learning / Deep Learning", "value": 85 },
-        { "name": "NLP", "value": 82 },
-        { "name": "PyTorch / TensorFlow / Keras", "value": 80 }
+        {
+          "name": "IA Générative (LLM / Agents / RAG)",
+          "value": 95
+        },
+        {
+          "name": "Computer Vision & OCR",
+          "value": 88
+        },
+        {
+          "name": "Machine Learning / Deep Learning",
+          "value": 85
+        },
+        {
+          "name": "NLP",
+          "value": 82
+        },
+        {
+          "name": "PyTorch / TensorFlow / Keras",
+          "value": 80
+        }
       ]
     },
     {
@@ -136,11 +196,26 @@
       "bar": "bg-secondary",
       "headerBar": "bg-secondary-container",
       "skills": [
-        { "name": "Python / FastAPI / Celery", "value": 95 },
-        { "name": "AWS", "value": 80 },
-        { "name": "GCP (BigQuery, Dataflow, Vertex AI)", "value": 78 },
-        { "name": "Redis / RabbitMQ", "value": 75 },
-        { "name": "PostgreSQL / MongoDB", "value": 80 }
+        {
+          "name": "Python / FastAPI / Celery",
+          "value": 95
+        },
+        {
+          "name": "AWS",
+          "value": 80
+        },
+        {
+          "name": "GCP (BigQuery, Dataflow, Vertex AI)",
+          "value": 78
+        },
+        {
+          "name": "Redis / RabbitMQ",
+          "value": 75
+        },
+        {
+          "name": "PostgreSQL / MongoDB",
+          "value": 80
+        }
       ]
     },
     {
@@ -152,10 +227,22 @@
       "bar": "bg-tertiary",
       "headerBar": "bg-tertiary-container",
       "skills": [
-        { "name": "Next.js / React", "value": 78 },
-        { "name": "Angular", "value": 70 },
-        { "name": "Strapi / Supabase", "value": 75 },
-        { "name": "Flutter", "value": 72 }
+        {
+          "name": "Next.js / React",
+          "value": 78
+        },
+        {
+          "name": "Angular",
+          "value": 70
+        },
+        {
+          "name": "Strapi / Supabase",
+          "value": 75
+        },
+        {
+          "name": "Flutter",
+          "value": 72
+        }
       ]
     },
     {
@@ -167,10 +254,22 @@
       "bar": "bg-on-surface",
       "headerBar": "bg-surface-container-highest",
       "skills": [
-        { "name": "Docker / Git / GitHub Actions", "value": 88 },
-        { "name": "LangChain / LiteLLM", "value": 90 },
-        { "name": "Pinecone (Vector DB)", "value": 85 },
-        { "name": "N8N", "value": 70 }
+        {
+          "name": "Docker / Git / GitHub Actions",
+          "value": 88
+        },
+        {
+          "name": "LangChain / LiteLLM",
+          "value": 90
+        },
+        {
+          "name": "Pinecone (Vector DB)",
+          "value": 85
+        },
+        {
+          "name": "N8N",
+          "value": 70
+        }
       ]
     }
   ],
@@ -182,22 +281,58 @@
       "Rareté : Légendaire",
       "Niveau : 99"
     ]
-  }
-},
+  },
   "socials": [
-    { "label": "Email", "href": "mailto:ttokiniainatoavina4@gmail.com", "icon": "mail" },
-    { "label": "Phone", "href": "tel:+261347231032", "icon": "call" },
-    { "label": "LinkedIn", "href": "#", "icon": "link" },
-    { "label": "GitHub", "href": "#", "icon": "terminal" }
+    {
+      "label": "Email",
+      "href": "mailto:ttokiniainatoavina4@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "label": "Phone",
+      "href": "tel:+261347231032",
+      "icon": "call"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "#",
+      "icon": "link"
+    },
+    {
+      "label": "GitHub",
+      "href": "#",
+      "icon": "terminal"
+    }
   ],
   "languages": [
-    { "name": "Malgache", "level": "Natif" },
-    { "name": "Français", "level": "Courant (pro)" },
-    { "name": "Anglais", "level": "Lu et écrit" }
+    {
+      "name": "Malgache",
+      "level": "Natif"
+    },
+    {
+      "name": "Français",
+      "level": "Courant (pro)"
+    },
+    {
+      "name": "Anglais",
+      "level": "Lu et écrit"
+    }
   ],
   "education": [
-    { "title": "Master en Génie Logiciel & IA", "school": "ISPM", "period": "2023 – 2025" },
-    { "title": "Licence en Génie Logiciel & IA", "school": "ISPM", "period": "2018 – 2022" },
-    { "title": "Baccalauréat — Série D", "school": "LSPCA Ampahateza", "period": "2018" }
+    {
+      "title": "Master en Génie Logiciel & IA",
+      "school": "ISPM",
+      "period": "2023 – 2025"
+    },
+    {
+      "title": "Licence en Génie Logiciel & IA",
+      "school": "ISPM",
+      "period": "2018 – 2022"
+    },
+    {
+      "title": "Baccalauréat — Série D",
+      "school": "LSPCA Ampahateza",
+      "period": "2018"
+    }
   ]
 }
